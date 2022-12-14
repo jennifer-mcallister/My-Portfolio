@@ -1,0 +1,20 @@
+
+.cloud-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cloud-container > .image-container.pink-rabbit {
+    display: flex;
+    position: absolute;
+    height: 8%;
+    width: 8%;
+    transform: translateY(50%);
+    transform: translateX();
+    
+}
+
+.cloud-container > .image-container.pink-cloud {
+    display: flex;
+    position: relative;
+}
