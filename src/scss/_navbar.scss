@@ -1,0 +1,32 @@
+@use "variables" as var;
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+a, li {
+    padding-top: 15px;
+    list-style: none;
+    color: var.$green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var.$blue;
+}
+
+#hamburger-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
